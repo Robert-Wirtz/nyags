@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+.login{
+border: 3px solid yellow;
+max-width: max-content;
+padding: 20px 30px;
+margin: 10px auto;
+color:dimgray;
+}
+input[type=button] 
+{
+display: block;
+background-color: blanchedalmond;
+margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<div class="login">
+<form >
+<label for="homepage">Add your homepage:</label>
+<input type="url" id="homepage" name="homepage">
+<br>
+<input type="text"placeholder ="Search..">
+<br>
+<label for="email"> Enter Your Email: </label>
+<input type="email" name="email" id="email" />
+<br/>
+<label for="password"> Enter Your Password: </label>
+<input type="password" name="password" id="password"/>
+<br/>
+<tr>
+    <td>Gender:</td>
+    <td>
+        <input type="radio"value="male"name="gender">Male
+        
+        <input type="radio"value="female"name="gender">Female
+        
+    </td>
+</tr>
+<br/>
+</td>
+<td>University:</td>
+<td>
+    <select >
+        <option >Maseno</option>
+        <option>Nairobi</option>
+        <option>Eldoret</option>
+    </select>
+</td>
+</tr>
+<br/>
+<tr>
+    <td>
+        <input type="submit"value="submit">
+        <input type="reset"value="reset">
+    </td>
+</tr>
+<br/>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1">COMP SCIENCE</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2">ICTM</label><br>
+<div>
+<input type="button"value="LOGIN" />
+</form>
+</div>
+</body>
+</html>
