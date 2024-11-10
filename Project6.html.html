@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>entry form</title>
+        <style>
+            body{
+                background-color: white;
+            }
+            .radio-list ,.k{
+                list-style-type: none;
+
+            }
+            .k input{
+                list-style-type: none;
+                margin-top: 10px;  
+                border-radius: 5px;
+            padding: 2px ;
+            border: 1px solid black; 
+            }
+            .k input{
+                background-color: white;
+                color: 2px black;
+                font-weight: 300;
+            }
+            .form-group{
+                padding: 3px;
+            }
+            H4{
+                color:red ;
+            }
+            
+            
+            
+        </style>
+    </head>
+    <body>
+        <h1>"Pimp My Shoes" Contest Entry Form</h1>
+        <p>Want to trade in your old sneakers for a custom pair of Forcefields? Make a case for why your shoes have got to go and
+            you may be one <br>of ten lucky winners.
+            <br>
+            <br>
+            <b>Contest Entry Information</b>
+        </p>
+        <div >
+            <form action="post">
+                <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name"placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email address">Email Address</label>
+                    <input type="text" name="text"placeholder="Enter Your Email">
+                    </div>
+                <div class="form-group">
+                <label for="telephone number">Telephone Number</label>
+                <input type="text" name="text"placeholder="Enter Your Phone Number">
+                </div>
+                
+                <label for="name">My Shoes are SO old...</label>
+                <br>
+                <textarea name="message" rows="5"cols="50"placeholder="No more than 300 characters long"></textarea>
+            
+        </div>
+        <p><h3>Design Your custom Forefields:</h3></p>
+
+        <fieldset id="Custom Shoe Design" >
+            <legend>Custom Shoe Design</legend>
+            
+            <fieldset id="Color(choose one)">
+                <legend>Color (choose one)</legend>
+<ul class="radio-list">
+    <li><input type="radio" name="color"value="red">Red</li>
+    <li><input type="radio" name="color"value="blue">Blue</li>
+    <li><input type="radio" name="color"value="black">Black</li>
+    <li><input type="radio" name="color"value="silver">Silver</li>
+</ul>
+
+            </fieldset>
+            
+            <fieldset id="Features(Choose as many as you want)">
+                <legend>
+                    Features(Choose as many as you want)
+                </legend>
+                <ul class="radio-list">
+                    <li><input type="checkbox" name="Features"value=" Sparkley laces">Spakley laces</li>
+    <li><input type="checkbox" name="Features"value="Metallic logo">Metallic logo</li>
+    <li><input type="checkbox" name="Features"value="Light-up heels">Light-up heels</li>
+    <li><input type="checkbox" name="Features"value="MP3-enabled">MP3-enabled</li>
+                </ul>
+            </fieldset>
+            <fieldset id="size">
+<legend>Size</legend>
+<label for="sizes">Sizes reflect standard men's size:</label>
+<select name="sizes" >
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+    <option>11</option>
+    <option>12</option>
+    <option>13</option>
+</select>
+            </fieldset>
+
+        </fieldset>
+        <li class="k"><input type="submit" value="Pimp My Shoes!">
+            <input type="reset">
+        </li>
+        </form>
+        
+    </body>
+<h4> coded by ROBERT NYAGUDI</h4>
+</html>
