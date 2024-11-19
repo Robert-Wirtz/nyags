@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Mnagement System</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .container{
+            width: 90%;
+            margin: 20px auto;
+        }
+        .nav ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background: #f0f0f0;
+            padding: 10px;
+        }
+        .nav li{
+            display: inline-block;
+            margin: 0 15px;
+        }
+        .nav a{
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a:hover{
+            background: #ddd;
+        }
+        .content{
+            padding: 20px;
+        }
+        .module{
+            background: #fff;
+            border: 1px solid#ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 h2{
+            color: #333;
+        }
+        #login{
+            text-align: center;
+        }
+        #logi input [type=text],#login input[type="password"]{
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        #login button{
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 8px;
+            border: 1px; solid: #ddd;
+            text-align: left;
+        }
+        th{
+            background: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#department">Department</a></li>
+                <li><a href="#leave">Leave</a></li>
+                <li><a href="#login">Login/Logout</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div id="home"class="module">
+                <h1>Welcome to the Employee Management System</h1>
+                <p>This is the homepage.more content goes here.</p>
+            </div>
+<div id="departments"class="module">
+    <h2>Departments</h2>
+    <table>
+        <tr><th>Department ID</th><th>Name</th><th>Location</th></tr>
+        <tr><td>1</td><td>Sales</td><td>New York</td></tr>
+        <tr><td>2</td><td>Marketing</td><td>London</td></tr>
+        <!--More department rows-->
+    </table>
+</div>
+<div id="leave"class="module">
+    <h2>Leave Requests</h2>
+    <table>
+        <tr><th>Employee ID</th><th>Start Date</th><th>End Date</th><th>Status</th></tr>
+        <tr><td>101</td><td>2024-01-15</td><td>2024-01-20</td></tr>
+        <!--More department rows-->
+    </table>
+</div>
+<div id="login"class="module">
+    <h2>Login</h2>
+    <input type="text"placeholder="username">👤<br>
+    <input type="password"placeholder="password"n>🔒<br>
+    <button>Login</button>
+
+</div>
+</div>
+</div>
+</dody>
+</html>
+   
