@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paris weather update</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1> Welcome to our Weather applicaton</h1><br>
+ <input type="text"placeholder="Enter city  name">
+ <button>SEARCH</button>
+    <br/>
+   <h2>paris</h2> 
+   <p >
+    <span id="currentime">
+    Tuesday
+    
+    14.40
+    
+    ,
+    </span>
+    
+    
+    
+    <span id="weatherdescripton">
+    scatered clouds
+    </span>
+    
+    <br />
+    Humidity : 
+    <span id="Humidity" class="Humidity">
+    66
+    </span>
+    , Wind Speed : 
+    <span id="windspeed">
+    4.3
+    </span>
+    
+    </p>
+    <br/>
+<h3>☁12&degC</h3>
+<div class="day">
+<div>Mon</div>
+<div>Teus</div>
+<div>Wed</div><br>
+<div>Thu</div>
+<div>Fri</div>
+<div>Sat</div>
+<div> Sun</div>
+</div>
+<div class="Weather">
+    <div>🌦</div>
+    <div>🌦</div>
+    <div>🌦</div>
+    <div>🌦</div>
+    <div>🌦</div>
+    <div>🌦</div>
+    <div>🌦</div>
+</div>
+
+    <div class="forecast">
+    <div>15&deg</div>
+    <div>19&deg</div>
+    <div>15&deg</div>
+    <div>19&deg</div>
+    <div>15&deg</div>
+    <div>19&deg</div>
+    <div>15&deg</div>
+    <div>19&deg</div>
+    
+    <!--...more forecast temperature-->
+<div>15&deg</div><div>19&deg</div><div>15&deg</div><div>19&deg</div><div>15&deg</div><div>19&deg</div>
+</div>
+ <footer>Coded by <a href="htps://github.com/brian" target="_blank">Brian Okeyo </a>
+    nd is on etifly
+    <a href="htps://github.com/Rennish/Week7-Weather-API" 
+    target="_blank">Github</a>
+     and hosted by
+     <a href="htps://rennishweatherapp.netlify.app/" target="_blank">Netlify.</a>
+     <br>
+     The design was done using <a href="htps://www.fgma.com/" 
+    target="_blank">Figma</a></footer>  
+</div>
+</div>
+</div>
+<style>
+    a{
+        color: rgb(123, 3, 123);
+    }
+    .container{
+        width350px;
+        margin: 0 auto;
+        border: 1px ;
+        padding: 20px;
+        background-color: rgb(102, 85, 65);
+        border-radius: 10px;
+        
+    }
+    .Weather {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(40px,1fr));
+        gap: 5px;
+    }
+    .day{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(40px,1fr));
+        gap: 5px; 
+    }
+    .forecast{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(40px,1fr));
+        gap: 3px;
+        color: rgb(123, 3, 123);
+    }
+    .forecast div{
+        text-align: center;
+    }
+    .div-19{
+        color: rgb(187, 167, 178);
+    }
+
+body{
+    
+    font-family: "Roboto",sans-serif;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.Humidity{
+    color: rgb(123, 3, 123);
+    font-weight: bold
+}
+main{
+    padding: 20px 0;
+}
+h1{
+    margin: 0 auto;
+    text-decoration: underline;
+    font-size: medium;
+    text-align: center;
+    color: rgb(63, 41, 15);
+}
+h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: sans-serif;
+    color: solid black;
+    
+}
+
+  
+
+
+.header-details{
+    color: rgba(39, 33, 66, 0.4);
+    font-weight: 400;
+    line-height: 24px;
+}
+.weather-data{
+    display: flex; 
+    justfy-content: space-between
+    line-height: 30px
+    
+}
+h3{
+    margin-top: 16px;
+    font-size: 28px;
+    top: 30%;
+    margin-right:50px;
+    position: absolute;
+    right: 155px;
+   }
+   input{
+    
+    text-decoraton: solid;
+    border: none;
+    width: 380px;
+    border-color: blueviolet;
+   border-radius: 5px;
+   font-size: 15px;
+   padding:10px 15px;
+   height: 10px;
+   
+   }
+   button{
+    background-color: rgb(95, 3, 95);
+    border-radius: 6px;
+    color:whitesmoke;
+    align-items: center;
+    font-size: 13px;
+    padding:10px 15px;
+    font-weight: 40%;
+    height: 34px;
+    width: 100px;
+    font-family: sans-serif;
+   }
+    
+
+footer{
+    padding:0 0 10px 0;
+       border-top:none;
+       text-align:center;
+       color:rgba(0,0,0,0.5);
+       font-size:13px;
+} 
+</style>
+</body>
+</html>
